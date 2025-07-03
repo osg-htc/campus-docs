@@ -2,17 +2,17 @@
 
 ## Supported Cluster OSes and HTCondor Versions
 
-| OS                     | HTCondor       | Notes                                                                                     |
-|-------------------------|----------------|-------------------------------------------------------------------------------------------|
-| EL7&nbsp;(*)           | 23.10.*        | EL7 is no longer supported, and thus our ability to support such systems may be removed at any time. |
-| EL8&nbsp;(*)           | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| EL9&nbsp;(*)           | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| Debian&nbsp;11&nbsp;(bullseye) | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| Debian&nbsp;12&nbsp;(bookworm) | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| Ubuntu&nbsp;20.04&nbsp;(focal) | 24.0.*         | Ubuntu 20.04 is no longer supported, and thus our ability to support such systems may be removed at any time. |
-| Ubuntu&nbsp;22.04&nbsp;(jammy) | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| Ubuntu&nbsp;24.04&nbsp;(noble) | 24.*&nbsp;(>&nbsp;24.0) |                                                                                           |
-| (*)&nbsp;Tested&nbsp;variants&nbsp;are&nbsp;RHEL,&nbsp;Alma,&nbsp;and&nbsp;Rocky. |                |                                                                                           |                                                                                      |
+| OS                                                                                              | HTCondor                | Notes                                                                                                         |
+|-------------------------------------------------------------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------|
+| EL7&nbsp;(*)                                                                                    | 23.10.*                 | EL7 is no longer supported, and thus our ability to support such systems may be removed at any time.          |
+| EL8&nbsp;(*)                                                                                    | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| EL9&nbsp;(*)                                                                                    | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| Debian&nbsp;11&nbsp;(bullseye)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| Debian&nbsp;12&nbsp;(bookworm)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| Ubuntu&nbsp;20.04&nbsp;(focal)                                                                  | 24.0.*                  | Ubuntu 20.04 is no longer supported, and thus our ability to support such systems may be removed at any time. |
+| Ubuntu&nbsp;22.04&nbsp;(jammy)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| Ubuntu&nbsp;24.04&nbsp;(noble)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
+| (*)&nbsp;Tested&nbsp;variants&nbsp;are&nbsp;RHEL,&nbsp;Alma,&nbsp;and&nbsp;Rocky. {: colspan=2} |                         | &#8288 {: style="padding:0"}                                                                                  |
 
 ## Monitoring and Information
 
