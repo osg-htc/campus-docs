@@ -27,3 +27,10 @@
 -   PATh staff know the correct path to scratch space for jobs (ideally on each worker node, but a shared filesystem may work)
 -   Our user account can create subdirectories and run executables in the scratch directory
 -   The worker nodes have permissive outbound network connectivity to the Internet (default allow, please note specific restrictions)
+
+
+## Feedback
+
+Do you have questions or comments about this page?
+What could we do better?
+If so, please email us at [support@osg-htc.org](mailto:support@osg-htc.org)!
