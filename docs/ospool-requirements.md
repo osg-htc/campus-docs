@@ -6,17 +6,16 @@ In the table below,
 the OS is what you provide on the login and worker nodes;
 the HTCondor version is what we will provide via our services.
 
-| OS                                                                                              | HTCondor                | Notes                                                                                                         |
-|-------------------------------------------------------------------------------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------|
-| EL7&nbsp;(*)                                                                                    | 23.10.*                 | EL7 is no longer supported, and thus our ability to support such systems may be removed at any time.          |
-| EL8&nbsp;(*)                                                                                    | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| EL9&nbsp;(*)                                                                                    | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| Debian&nbsp;11&nbsp;(bullseye)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| Debian&nbsp;12&nbsp;(bookworm)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| Ubuntu&nbsp;20.04&nbsp;(focal)                                                                  | 24.0.*                  | Ubuntu 20.04 is no longer supported, and thus our ability to support such systems may be removed at any time. |
-| Ubuntu&nbsp;22.04&nbsp;(jammy)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| Ubuntu&nbsp;24.04&nbsp;(noble)                                                                  | 24.*&nbsp;(>&nbsp;24.0) |                                                                                                               |
-| (*)&nbsp;Tested&nbsp;variants&nbsp;are&nbsp;RHEL,&nbsp;Alma,&nbsp;and&nbsp;Rocky. {: colspan=2} |                         | &#8288 {: style="padding:0"}                                                                                  |
+| OS                                                                                                       | HTCondor                | Notes                                                                                                |
+|----------------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------------------------------------------------------|
+| Enterprise Linux 7&nbsp;(*)                                                                              | 23.10.*                 | Enterprise Linux 7 is no longer supported, and thus our ability to support such systems may be removed at any time. |
+| Enterprise&nbsp;Linux&nbsp;8&nbsp;(*)                                                                    | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Enterprise&nbsp;Linux&nbsp;9&nbsp;(*)                                                                    | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Debian&nbsp;12&nbsp;(bookworm)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Debian&nbsp;13&nbsp;(trixie)                                                                             | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Ubuntu&nbsp;22.04&nbsp;(jammy)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Ubuntu&nbsp;24.04&nbsp;(noble)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| (*)&nbsp;Tested&nbsp;variants&nbsp;are&nbsp;CentOS Stream,&nbsp;Alma,&nbsp;and&nbsp;Rocky. {: colspan=2} |                         | &#8288 {: style="padding:0"}                                                                         |
 
 
 ## Contributing via a Hosted CE
