@@ -1,10 +1,13 @@
-site_name: Campus Documentation
+site_name: Campus Contributor Docs
 site_url: https://osg-htc.org/campus/
 repo_name: campus
 theme:
   name: material
   logo: assets/OSG_Logo.svg
   favicon: assets/OSG_Logo.png
+  features:
+    - navigation.sections
+    - navigation.path
 
 extra_css:
   - stylesheets/code-highlight.css
@@ -20,15 +23,10 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
 
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/OSGUserSchool
-      name: OSG School on Twitter
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/OSGUserSchool
-      name: OSG School on Facebook
-
 nav:
   - Home:                           index.md
-  - OSPool Contribution Requirements: ospool-requirements.md
+  - OSPool:
+    - Integration:                  ospool-integration.md
+    - Detailed Requirements:        ospool-requirements.md
+    - Metrics:                      ospool-metrics.md
+    - Maintenance:                  ospool-maintenance.md
