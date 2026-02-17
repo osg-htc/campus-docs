@@ -4,27 +4,6 @@ In general, once your cluster is contributing to the OSPool,
 things should mostly just continue to work.
 There are no *required, routine* maintenance tasks specific to maintaining the integration.
 
-## Monitoring
-
-If you want to monitor aspects of the integration, here are a few ideas:
-
-*   Verify that SSH to the login node continues to work.
-
-*   Verify that the batch system on the login node is working;
-    for example, can our user run basic query and submit commands?
-
-*   Check whether any of our jobs run, especially when you would expect them to.
-
-*   If your integration is via a Hosted CE (Option 1a),
-    check [your OSPool Hosted CE Dashboard](ospool-metrics.md)
-    to see if the OSPool is actually getting your contributions and allocating capacity to researchers.
-
-*   If you told us to configure a Squid proxy service,
-    perform a periodic functional test on it:
-    Can it actually fetch a page from offsite?
-    Squid has a strange failure mode in which the service is running
-    but will not respond to any attempt to actually use it.
-
 ## When To Contact Us
 
 If you have or are concerned about **a possible security incident**
@@ -48,3 +27,24 @@ Some reasons to contact us:
 
 *   You want to change the configuration (“shape” or maximum number)
     of jobs that we submit into your cluster.
+
+## Monitoring
+
+If you want to monitor aspects of the integration, here are a few ideas:
+
+*   Verify that SSH to the login node continues to work.
+
+*   Verify that the batch system on the login node is working;
+    for example, can our user run basic query and submit commands?
+
+*   Check whether any of our jobs run, especially when you would expect them to.
+
+*   If your integration is via a Hosted CE (Option 1a),
+    check [your OSPool Hosted CE Dashboard](ospool-metrics.md)
+    to see if the OSPool is actually getting your contributions and allocating capacity to researchers.
+
+*   If you told us to configure a Squid proxy service,
+    perform a periodic functional test on it:
+    Can it actually fetch a page from offsite?
+    Squid has a strange failure mode in which the service is running
+    but will not respond to any attempt to actually use it.
