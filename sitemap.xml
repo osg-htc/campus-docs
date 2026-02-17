@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://osg-htc.org/campus/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://osg-htc.org/campus/ospool-integration/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://osg-htc.org/campus/ospool-maintenance/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://osg-htc.org/campus/ospool-metrics/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://osg-htc.org/campus/ospool-requirements/</loc>
+         <lastmod>2026-02-17</lastmod>
+    </url>
+</urlset>
