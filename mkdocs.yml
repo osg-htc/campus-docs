@@ -25,7 +25,7 @@ markdown_extensions:
 
 nav:
   - Home:                           index.md
-    - OSPool:
+  - OSDF:
     - Integration:                  osdf-integration.md
   - OSPool:
     - Integration:                  ospool-integration.md
