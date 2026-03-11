@@ -132,7 +132,7 @@ the OSG technical docs:
 	1. [Installing the OSDF Origin by RPM](https://osg-htc.org/docs/data/osdf/install-origin-rpm) 
 	1. [Installing the OSDF Cache by RPM](https://osg-htc.org/docs/data/osdf/install-cache-rpm)
 
-The benefit of this approach is full control of the service - no one
+The benefit of this approach is full control of the service — no one
 from the OSG team needs access to the service node. The trade-off is the
 time and effort to stand up the service, and then to maintain it
 (upgrades, configuration, etc.). 
