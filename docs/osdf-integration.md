@@ -9,7 +9,7 @@ We organize the integration process around two meetings, plus some tasks
 in-between and after:
 
 1.  **Start.** [Fill out our interest form](https://docs.google.com/forms/d/e/1FAIpQLSem2Lu-
-9nL2DBOXrSzmHTWdBZHsMmVN_pIq5ITSnj4A51BTLw/viewform) or email [support@osg-htc.org]. 
+9nL2DBOXrSzmHTWdBZHsMmVN_pIq5ITSnj4A51BTLw/viewform) or email [support@osg-htc.org](mailto:support@osg-htc.org). 
 We aim to reply quickly and get started.
 
 1.  **Kickoff meeting.** We will discuss in more depth your goals for
@@ -52,8 +52,6 @@ serve your own data, or share storage with OSG services. If you aren't
 sure which is best for your campus, we will discuss in the kickoff
 meeting. 
 
-> Learn more about caches and origins. 
-
 ## Integration Mechanisms
 
 To connect storage to the OSDF, an origin or cache service needs to be
@@ -68,8 +66,8 @@ so consider the information below as a starting point.
 
 !!! tip "Hardware recommendations" See hardware recommendations for each
 service in the
-[origin](../osdf/install-origin-container.md#before-starting) and
-[cache](../osdf/install-cache-container.md#before-starting)
+[origin](https://osg-htc.org/docs/data/osdf/install-origin-container#before-starting) and
+[cache](https://osg-htc.org/docs/data/osdf/install-cache-container#before-starting)
 documentation
 
 ### Option 1: We (OSDF) operate the service
@@ -83,7 +81,7 @@ either on our own hardware or hardware you provide:
 	endpoint, we can operate the origin without any local hardware
 	requirements or configuration. Let us know if this applies to you.
 
-*   **Option 1b: Hosted Origin/Cache - Kubernetes*
+*   **Option 1b: Hosted Origin/Cache - Kubernetes**
 
 	Currently, we can operate the Pelican services on a service node local
 	to the institution via Kubernetes. It is conceptually described on our
@@ -91,7 +89,7 @@ either on our own hardware or hardware you provide:
 	website](https://osg-htc.org/about/osdf/deploying_an_osdf_origin.html)
 	for an origin. A cache would be deployed exactly the same way. The 
 	service node needs to have access to the storage (typically via a 
-	posix mount). 
+	POSIX mount). 
 	
 	You can provide a node with Kubernetes in one of two ways:
 	
@@ -101,7 +99,7 @@ either on our own hardware or hardware you provide:
 	contributor-guide/). After your server is integrated with NRP, we will
 	deploy the appropriate service. 
 	
-	1. If you have an existing Kutbernetes cluster on campus, and you can
+	1. If you have an existing Kubernetes cluster on campus, and you can
 	provide a user account on that cluster, our staff can operate the
 	service from there. 
 
@@ -110,7 +108,7 @@ either on our own hardware or hardware you provide:
 	We are developing an integration method
 	where OSDF operations staff can run the appropriate Pelican service on
 	your service node through **SSH access**, without requiring Kubernetes
-	or root access. Contact us (support@osg-htc.org) if you would like to
+	or root access. Contact us ([support@osg-htc.org](mailto:support@osg-htc.org)) if you would like to
 	explore using this option.
 
 The benefit of this approach is that you don't need to learn anything
@@ -127,13 +125,12 @@ server.
 There are multiple ways to deploy Pelican yourself, detailed in 
 the OSG technical docs: 
 
-1. Use the Pelican container. 
-	1. [Installing the OSDF Origin by Container](https://osg-htc.org/docs/data/osdf/install-origin-container.md). 
-	1. [Installing the OSDF Cache by Container](https://osg-htc.org/docs/data/osdf/install-cache-container.md). 
-1. Use the RPM.
-	1. [Installing the OSDF Origin by RPM](https://osg-htc.org/docs/data/osdf/install-origin-rpm.md) 
-	1.
-[Installing the OSDF Cache by RPM](https://osg-htc.org/docs/data/osdf/install-cache-rpm.md)
+1. Use the Pelican container 
+	1. [Installing the OSDF Origin by Container](https://osg-htc.org/docs/data/osdf/install-origin-container) 
+	1. [Installing the OSDF Cache by Container](https://osg-htc.org/docs/data/osdf/install-cache-container) 
+1. Use the RPM
+	1. [Installing the OSDF Origin by RPM](https://osg-htc.org/docs/data/osdf/install-origin-rpm) 
+	1. [Installing the OSDF Cache by RPM](https://osg-htc.org/docs/data/osdf/install-cache-rpm)
 
 The benefit of this approach is full control of the service - no one
 from the OSG team needs access to the service node. The trade-off is the
