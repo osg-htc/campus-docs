@@ -28,6 +28,7 @@ nav:
   - Home:                           index.md
   - OSDF:
     - Integration:                  osdf-integration.md
+    - Detailed Requirements:        osdf-requirements.md
   - OSPool:
     - Integration:                  ospool-integration.md
     - Detailed Requirements:        ospool-requirements.md
