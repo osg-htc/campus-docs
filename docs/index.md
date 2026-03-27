@@ -13,13 +13,19 @@ how we can improve these pages to better support you!
 
 ## Open Science Data Federation (OSDF)
 
-The Open Science Data Federation (OSDF)
+The [Open Science Data Federation (OSDF)](https://osg-htc.org/services/osdf)
 connects disparate dataset repositories into
-a single, nationwide data distribution network.
+a single, nationwide data distribution network. Campuses can provide 
+storage to back data distribution services, serve their own datasets, 
+or share other public data objects. 
 
-At this time, information about contributing to the OSDF is located
-[on our main OSDF webpage](https://osg-htc.org/services/osdf).
+**Do you have storage to integrate with the OSDF?**
 
+Get started on our [OSDF integration page](osdf-integration.md).
+
+> Our OSDF integration process is still in development. If you can't find
+> the information you need on this website or other web presences, please 
+> reach out to [support@osg-htc.org](mailto:support@osg-htc.org). 
 
 ## Open Science Pool (OSPool)
 
