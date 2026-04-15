@@ -26,6 +26,22 @@ A service node supporting a Pelican cache or origin has the following requiremen
 For an origin service, if using a POSIX file system as the backing store, it must 
 be mounted to the service node supporting the Pelican origin. 
 
+
+## Checklist for Your OSDF Cache
+
+If you are setting up
+[your own OSDF Cache](https://osg-htc.org/docs/data/osdf/overview/#option-2-you-the-campussite-operate-the-service),
+please check these items before enabling access:
+
+*   Backing storage for the Cache uses fast storage (e.g., SSD, NVMe)
+*   The service is listening on the expected public IP address and ports
+    (see above for defaults, and check local configuration)
+*   The service has at least a 40 Gbps connection to the WAN, both up and down
+*   The OSDF registry has current, accurate information for the Cache
+*   If the Cache is for local use only or for restricted namespaces,
+    verify that those are configured correctly
+
+
 ## Feedback
 
 Do you have questions or comments about this page?
