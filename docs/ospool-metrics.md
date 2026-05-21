@@ -16,7 +16,7 @@ In general, we offer:
 
     If you are contributing via a Hosted CE (Option 1a), there will be a CE Dashboard view for your CE and site.
     We will send you the link to that page during the post-integration follow-up.
-    An index of all Hosted CE Dashboards may be found [here](https://ce-dashboard.ospool.osg-htc.org/index.html).
+    You may also navigate to your site's individual dashboard from the [CE Dashboard landing page](https://ce-dashboard.ospool.osg-htc.org/index.html).
 
     On the top of the page,
     there are small charts that show resource contributions (top, red line) and
