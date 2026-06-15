@@ -11,10 +11,12 @@ the HTCondor version is what we will provide via our services.
 | Enterprise Linux 7&nbsp;(*)                                                                              | 23.10.*                 | Enterprise Linux 7 is no longer supported, and thus our ability to support such systems may be removed at any time. |
 | Enterprise&nbsp;Linux&nbsp;8&nbsp;(*)                                                                    | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | Enterprise&nbsp;Linux&nbsp;9&nbsp;(*)                                                                    | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Enterprise&nbsp;Linux&nbsp;10&nbsp;(*)                                                                   | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | Debian&nbsp;12&nbsp;(bookworm)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | Debian&nbsp;13&nbsp;(trixie)                                                                             | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | Ubuntu&nbsp;22.04&nbsp;(jammy)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | Ubuntu&nbsp;24.04&nbsp;(noble)                                                                           | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
+| Ubuntu&nbsp;26.04&nbsp;(resolute)                                                                        | 25.*&nbsp;(>&nbsp;25.0) |                                                                                                      |
 | (*)&nbsp;Tested&nbsp;variants&nbsp;are&nbsp;CentOS Stream,&nbsp;Alma,&nbsp;and&nbsp;Rocky. {: colspan=2} |                         | &#8288 {: style="padding:0"}                                                                         |
 
 
